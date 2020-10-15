@@ -9,27 +9,27 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav w-100 mx-auto">
                 <li class="nav-item active wow rotateIn ">
-                    <a class="nav-link btn aqua-gradient color-block mb-3 mx-auto rounded-pill z-depth-1-half"
+                    <a class="nav-link btn blue-gradient color-block mb-3 mx-auto rounded-circle z-depth-1"
                         href="home.php" role="button" aria-pressed="true">Home</a>
                 </li>
                 <li class="nav-item dropdown wow rotateIn">
-                    <a class="nav-link btn aqua-gradient color-block mb-3 mx-auto rounded-pill z-depth-1"
+                    <a class="nav-link btn blue-gradient color-block mb-3 mx-auto rounded-circle z-depth-1"
                         href="rooms.php" role="button" aria-pressed="true">Rooms</a>
                 </li>
                 <li class="nav-item wow rotateIn">
-                    <a class="nav-link btn aqua-gradient color-block mb-3 mx-auto rounded-pill z-depth-1" href="#"
+                    <a class="nav-link btn blue-gradient color-block mb-3 mx-auto rounded-circle z-depth-1" href="#"
                         role="button" aria-pressed="true">Contact</a>
                 </li>
                 <li class="nav-item wow rotateIn">
-                    <a class="nav-link btn aqua-gradient color-block mb-3 mx-auto rounded-pill z-depth-1" href="#"
+                    <a class="nav-link btn blue-gradient color-block mb-3 mx-auto rounded-circle z-depth-1" href="#"
                         role="button" aria-pressed="true">About</a>
                 </li>
                 <li class="nav-item wow rotateIn">
-                    <a class="nav-link btn aqua-gradient color-block mb-3 mx-auto rounded-pill z-depth-1"
+                    <a class="nav-link btn blue-gradient color-block mb-3 mx-auto rounded-circle z-depth-1"
                         href="login.php" target="_self" role="button" aria-pressed="true">User Login</a>
                 </li>
                 <li class="nav-item wow rotateIn">
-                    <a class="nav-link btn aqua-gradient color-block mb-3 mx-auto rounded-pill z-depth-1"
+                    <a class="nav-link btn blue-gradient color-block mb-3 mx-auto rounded-circle z-depth-1"
                         href="admin/adminlogin.php" target="_self" role="button" aria-pressed="true">Admin Login</a>
                 </li>
             </ul>

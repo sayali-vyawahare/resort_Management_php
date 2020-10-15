@@ -31,20 +31,20 @@
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/img/resort2.jpg" alt="First slide" height="650px">
+                <img class="d-block w-100" src="assets/img/re1.jpg" alt="First slide" height="650px">
                 <div class="carousel-caption caro-capt d-none d-md-block wow slideInUp">
                     <h3>Welcome to Paradise</h3>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/resort4.jpg" alt="Second slide" height="650px">
+                <img class="d-block w-100" src="assets/img/re2.jpg" alt="Second slide" height="650px">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/resort3.jpg" alt="Third slide" height="650px">
+                <img class="d-block w-100" src="assets/img/re3.jpg" alt="Third slide" height="650px">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/resort1.jpg" alt="Third slide" height="650px">
+                <img class="d-block w-100" src="assets/img/re4.jpg" alt="Third slide" height="650px">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">

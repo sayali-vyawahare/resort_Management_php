@@ -1,6 +1,12 @@
 .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
   background-color: rgba(0, 0, 0, 0) !important;
 }
+.navbar .nav-item .nav-link {
+  font-size: medium !important;
+}
+.navbar-brand {
+  width: 20%;
+}
 .dropdown-toggle::after {
   content: none !important;
   display: block;
@@ -11,8 +17,16 @@
 .navbar {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  z-index: 10;
+  /* z-index: 10; */
 }
+.nav-item {
+  width: 15%;
+  margin: 5px;
+}
+.nav-link {
+  padding: 5px !important;
+}
+
 .caro-capt {
   position: absolute;
   bottom: 20% !important;
