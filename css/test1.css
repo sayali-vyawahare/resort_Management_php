@@ -1,3 +1,10 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif !important;
+}
+
 .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
   background-color: rgba(0, 0, 0, 0) !important;
 }
