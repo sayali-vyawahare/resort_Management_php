@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Paradise</title>
     <link rel="stylesheet" type="text/css" href="css/test1.css">
+    <link rel="stylesheet" type="text/css" href="css/stylemain.css">
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -59,27 +61,28 @@
     <div class=" class= py-4 text-uppercase text-center ">
         <h2 class="mt-2 wow zoomIn slow"><u>Rooms</u></h2>
     </div>
-    <section>
-        <nav class="container-fluid h-100">
+    <section id="section1">
+        <nav class="container-fluid">
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                <a class="nav-item nav-link active" id="nav-single-tab" data-toggle="tab" href="#nav-single" role="tab"
-                    aria-controls="nav-single" aria-selected="true">Single Room</a>
-                <a class="nav-item nav-link" id="nav-double-tab" data-toggle="tab" href="#nav-double" role="tab"
-                    aria-controls="nav-double" aria-selected="false">Double Room</a>
-                <a class="nav-item nav-link" id="nav-semideluxe-tab" data-toggle="tab" href="#nav-semideluxe" role="tab"
-                    aria-controls="nav-semideluxe" aria-selected="false">Semideluxe Room</a>
-                <a class="nav-item nav-link" id="nav-deluxe-tab" data-toggle="tab" href="#nav-deluxe" role="tab"
-                    aria-controls="nav-deluxe" aria-selected="true">Deluxe Room</a>
+                <a class="nav-item nav-link active font-weight-bold" id="nav-single-tab" data-toggle="tab"
+                    href="#nav-single" role="tab" aria-controls="nav-single" aria-selected="true">Single Room</a>
+                <a class="nav-item nav-link font-weight-bold" id="nav-double-tab" data-toggle="tab" href="#nav-double"
+                    role="tab" aria-controls="nav-double" aria-selected="false">Double Room</a>
+                <a class="nav-item nav-link font-weight-bold" id="nav-semideluxe-tab" data-toggle="tab"
+                    href="#nav-semideluxe" role="tab" aria-controls="nav-semideluxe" aria-selected="false">Semideluxe
+                    Room</a>
+                <a class="nav-item nav-link font-weight-bold" id="nav-deluxe-tab" data-toggle="tab" href="#nav-deluxe"
+                    role="tab" aria-controls="nav-deluxe" aria-selected="true">Deluxe Room</a>
             </div>
         </nav>
         <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="nav-single" role="tabpanel" aria-labelledby="nav-single-tab">
                 <div class="container my-2 py-3">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-7">
                             <img src="assets/img/presidential_suite.jpg" width="100%">
                         </div>
-                        <div class="col-8">
+                        <div class="col-5">
                             <h3>Lorem Ipsum</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum omnis incidunt aliquid
                                 repudiandae a. Omnis tempore, quidem velit quae eaque blanditiis asperiores impedit,
@@ -93,10 +96,10 @@
             <div class="tab-pane fade" id="nav-double" role="tabpanel" aria-labelledby="nav-double-tab">
                 <div class="container my-2 py-3">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-7">
                             <img src="assets/img/presidential_suite.jpg" width="100%">
                         </div>
-                        <div class="col-8">
+                        <div class="col-5">
                             <h3>Lorem Ipsum</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum omnis incidunt aliquid
                                 repudiandae a. Omnis tempore, quidem velit quae eaque blanditiis asperiores impedit,
@@ -110,10 +113,10 @@
             <div class="tab-pane fade" id="nav-semideluxe" role="tabpanel" aria-labelledby="nav-semideluxe-tab">
                 <div class="container my-2 py-3">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-7">
                             <img src="assets/img/presidential_suite.jpg" width="100%">
                         </div>
-                        <div class="col-8">
+                        <div class="col-5">
                             <h3>Lorem Ipsum</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum omnis incidunt aliquid
                                 repudiandae a. Omnis tempore, quidem velit quae eaque blanditiis asperiores impedit,
@@ -127,10 +130,10 @@
             <div class="tab-pane fade" id="nav-deluxe" role="tabpanel" aria-labelledby="nav-deluxe-tab">
                 <div class="container my-2 py-3">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-7">
                             <img src="assets/img/presidential_suite.jpg" width="100%">
                         </div>
-                        <div class="col-8">
+                        <div class="col-5">
                             <h3>Lorem Ipsum</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum omnis incidunt aliquid
                                 repudiandae a. Omnis tempore, quidem velit quae eaque blanditiis asperiores impedit,
@@ -337,11 +340,7 @@
                 </p>
             </div>
         </div> -->
-
-    <footer>
-        <a href="#home" class="toTop scroll"><i class="fa fa-angle-up"></i></a>
-        <p class="text-center">&copy;The paradise 2020</p>
-    </footer>
+    <?php include 'footer.php' ?>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
         integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="

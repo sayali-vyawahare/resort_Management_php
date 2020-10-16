@@ -38,7 +38,7 @@
   position: fixed;
   right: 1em;
   bottom: 1em;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(233, 2, 2, 0.8) !important;
   width: 45px;
   height: 45px;
   text-align: center;
